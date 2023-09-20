@@ -1,12 +1,12 @@
 package tv.codely.analytics.domain_events.application.store;
 
-import org.springframework.context.event.EventListener;
 import tv.codely.analytics.domain_events.domain.AnalyticsDomainEventAggregateId;
 import tv.codely.analytics.domain_events.domain.AnalyticsDomainEventBody;
 import tv.codely.analytics.domain_events.domain.AnalyticsDomainEventId;
 import tv.codely.analytics.domain_events.domain.AnalyticsDomainEventName;
 import tv.codely.shared.domain.bus.event.DomainEvent;
 import tv.codely.shared.domain.bus.event.DomainEventSubscriber;
+import tv.codely.shared.infrastructure.EventListener;
 
 @DomainEventSubscriber({DomainEvent.class})
 public final class StoreDomainEventOnOccurred {
