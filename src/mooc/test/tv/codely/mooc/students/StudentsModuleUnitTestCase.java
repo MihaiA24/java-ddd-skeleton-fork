@@ -1,8 +1,6 @@
 package tv.codely.mooc.students;
 
 import org.junit.jupiter.api.BeforeEach;
-import tv.codely.mooc.courses.domain.Course;
-import tv.codely.mooc.courses.domain.CourseRepository;
 import tv.codely.mooc.students.domain.Student;
 import tv.codely.mooc.students.domain.StudentRepository;
 import tv.codely.shared.infrastructure.UnitTestCase;

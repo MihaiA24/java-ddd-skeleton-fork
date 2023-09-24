@@ -1,6 +1,6 @@
 package tv.codely.mooc.students.application.create;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
 import tv.codely.mooc.students.StudentsModuleUnitTestCase;
 import tv.codely.mooc.students.domain.CreateStudentCommandMonther;
